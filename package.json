@@ -1,0 +1,24 @@
+{
+  "name": "bin-script-example",
+  "version": "1.1.0",
+  "description": "bin script example app",
+  "main": "index.js",
+  "bin": {
+    "hello": "hello-world.js"
+  },
+  "scripts": {
+    "start": "node .",
+    "hello": "./hello-world.js"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aaestrada/bin-script-example.git"
+  },
+  "keywords": [],
+  "author": "aaestrada",
+  "license": "ISC"
+}
